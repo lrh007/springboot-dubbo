@@ -1,0 +1,13 @@
+dubbo:
+  application:
+    name: springboot-dubbo-consumer
+  protocol:
+    name: dubbo    #协议名称
+    port: 20880    #协议地址
+  registry:
+    address: zookeeper://192.168.147.170:2181  #注册中心地址
+  consumer:
+    check: false  #不用服务检查，
+    timeout: 3000
+
+

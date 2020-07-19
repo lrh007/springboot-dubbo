@@ -1,0 +1,10 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: springboot-provider
+  protocol:
+    name: dubbo  #协议名称
+    port: 20880  #端口号
+  registry:
+    address: zookeeper://192.168.147.170:2181  #注册中心地址
